@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Status</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending Deliverables</fullName>
+                <default>false</default>
+                <label>Pending Deliverables</label>
+            </value>
+            <value>
+                <fullName>Pending Utility</fullName>
+                <default>false</default>
+                <label>Pending Utility</label>
+            </value>
+            <value>
+                <fullName>Pending Program Review</fullName>
+                <default>false</default>
+                <label>Pending Program Review</label>
+            </value>
+            <value>
+                <fullName>Pending Engineering</fullName>
+                <default>false</default>
+                <label>Pending Engineering</label>
+            </value>
+            <value>
+                <fullName>Pending Customer</fullName>
+                <default>false</default>
+                <label>Pending Customer</label>
+            </value>
+            <value>
+                <fullName>Pending DSD</fullName>
+                <default>false</default>
+                <label>Pending DSD</label>
+            </value>
+            <value>
+                <fullName>Pending PTO</fullName>
+                <default>false</default>
+                <label>Pending PTO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Submitted</controllingFieldValue>
+            <valueName>Pending Deliverables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Submitted</controllingFieldValue>
+            <valueName>Pending Utility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Submitted</controllingFieldValue>
+            <controllingFieldValue>Deficiency</controllingFieldValue>
+            <valueName>Pending Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Submitted</controllingFieldValue>
+            <controllingFieldValue>Deficiency</controllingFieldValue>
+            <controllingFieldValue>Award Reserved</controllingFieldValue>
+            <valueName>Pending Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <valueName>Pending Program Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Award Reserved</controllingFieldValue>
+            <valueName>Pending DSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Award Reserved</controllingFieldValue>
+            <valueName>Pending PTO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

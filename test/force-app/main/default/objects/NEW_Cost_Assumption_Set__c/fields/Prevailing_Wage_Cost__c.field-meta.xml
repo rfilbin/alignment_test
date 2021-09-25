@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevailing_Wage_Cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>((Civil_Installation__c +  Electrical_Installation__c +  Mechanical_Installation__c) / (1 +  Prevailing_Wage__c))* Prevailing_Wage__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Prevailing Wage ($)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

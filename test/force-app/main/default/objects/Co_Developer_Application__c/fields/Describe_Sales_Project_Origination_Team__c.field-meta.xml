@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Describe_Sales_Project_Origination_Team__c</fullName>
+    <description>for portal use</description>
+    <externalId>false</externalId>
+    <inlineHelpText>How would you describe your sales and project origination team?</inlineHelpText>
+    <label>Describe Sales/Project Origination Team</label>
+    <length>5000</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

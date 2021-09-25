@@ -1,0 +1,14 @@
+<!--
+  @description       : 
+  @author            : robert@venturetechgroup.com
+  @group             : VentureTech Group
+  @last modified on  : 2021-06-17
+  @last modified by  : robert@venturetechgroup.com
+  Modifications Log 
+  Ver   Date         Author                        Modification
+  1.0   2021-06-17   robert@venturetechgroup.com   Initial Version
+-->
+<aura:component implements="forceCommunity:availableForAllPageTypes,lightning:availableForFlowScreens,lightning:availableForFlowActions" access="global">
+    <!-- When the component renders, call the init handler. -->
+    <aura:handler name="init" value="{!this}" action="{!c.refreshPage}"/>
+</aura:component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Sizes_Pursued_by_Company__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Which project sizes does your company pursue?</inlineHelpText>
+    <label>Project Sizes Pursued by Company</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0-250 kWdc</fullName>
+                <default>false</default>
+                <label>0-250 kWdc</label>
+            </value>
+            <value>
+                <fullName>250-500 kWdc</fullName>
+                <default>false</default>
+                <label>250-500 kWdc</label>
+            </value>
+            <value>
+                <fullName>500-1,000 kWdc</fullName>
+                <default>false</default>
+                <label>500-1,000 kWdc</label>
+            </value>
+            <value>
+                <fullName>1-5 MWdc</fullName>
+                <default>false</default>
+                <label>1-5 MWdc</label>
+            </value>
+            <value>
+                <fullName>5+ MWdc</fullName>
+                <default>false</default>
+                <label>5+ MWdc</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

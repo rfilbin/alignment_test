@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solver_class_A_advance_rate__c</fullName>
+    <description>Fraction of FMV the Class A member should contribute to the partnership for its returns up to the flip date to match the flip hurdle rate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fraction of FMV the Class A member should contribute to the partnership for its returns up to the flip date to match the flip hurdle rate.</inlineHelpText>
+    <label>Solver Class A advance rate</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>5</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

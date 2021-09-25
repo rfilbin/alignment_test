@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_CRUs</fullName>
+    <columns>NAME</columns>
+    <columns>System_Cost__c</columns>
+    <columns>System_Size_kW_DC__c</columns>
+    <columns>System_Cost_W__c</columns>
+    <columns>Design_AEP__c</columns>
+    <columns>Unsaved_Changes__c</columns>
+    <columns>Update_CRU__c</columns>
+    <columns>Check_Prevailing__c</columns>
+    <columns>Check_Taxes__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>NEW_Cost_Assumption_Set__c.Project</value>
+    </filters>
+    <label>Project CRUs</label>
+</ListView>

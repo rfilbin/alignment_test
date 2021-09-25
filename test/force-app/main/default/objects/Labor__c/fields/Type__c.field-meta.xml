@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mechanical Installation</fullName>
+                <default>false</default>
+                <label>Mechanical Installation</label>
+            </value>
+            <value>
+                <fullName>Electrical Installation</fullName>
+                <default>false</default>
+                <label>Electrical Installation</label>
+            </value>
+            <value>
+                <fullName>Civil Installation</fullName>
+                <default>false</default>
+                <label>Civil Installation</label>
+            </value>
+            <value>
+                <fullName>Other Installation</fullName>
+                <default>false</default>
+                <label>Other Installation</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+                <label>Environmental</label>
+            </value>
+            <value>
+                <fullName>Permit &amp; Fees</fullName>
+                <default>false</default>
+                <label>Permit &amp; Fees</label>
+            </value>
+            <value>
+                <fullName>Survey</fullName>
+                <default>false</default>
+                <label>Survey</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Inspections</fullName>
+                <default>false</default>
+                <label>Inspections</label>
+            </value>
+            <value>
+                <fullName>Utility</fullName>
+                <default>false</default>
+                <label>Utility</label>
+            </value>
+            <value>
+                <fullName>Design Contingency / COQ</fullName>
+                <default>false</default>
+                <label>Design Contingency / COQ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

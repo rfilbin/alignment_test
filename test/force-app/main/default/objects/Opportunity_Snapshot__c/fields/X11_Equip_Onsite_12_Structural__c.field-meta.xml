@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X11_Equip_Onsite_12_Structural__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(isblank( X11_Major_Equipment_Delivered__c ),&quot;.........................&quot;,
+&quot;(11) &quot; &amp;
+If(len(text(Month(X11_Major_Equipment_Delivered__c))) = 1,
+&quot;0&quot; &amp; text(Month( X11_Major_Equipment_Delivered__c)),
+text(Month( X11_Major_Equipment_Delivered__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X11_Major_Equipment_Delivered__c))) =1,
+&quot;0&quot; &amp; text(Day( X11_Major_Equipment_Delivered__c)),
+text(Day(X11_Major_Equipment_Delivered__c)))
+&amp; &quot;/&quot; &amp;
+text(Year(X11_Major_Equipment_Delivered__c)))
+
+&amp;&quot; &quot; &amp;
+
+If(isblank( X12_Structural_Completion__c ),&quot;......................... &quot;,
+&quot;(12) &quot; &amp;
+IF(len(text(Month( X12_Structural_Completion__c))) = 1,
+&quot;0&quot; &amp; text(Month( X12_Structural_Completion__c)),
+text(Month( X12_Structural_Completion__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X12_Structural_Completion__c))) =1,
+&quot;0&quot; &amp; text(Day( X12_Structural_Completion__c)),
+text(Day( X12_Structural_Completion__c)))
+&amp; &quot;/&quot; &amp;
+text(Year( X12_Structural_Completion__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zzArc(11) Equip Onsite ..(12) Structural</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

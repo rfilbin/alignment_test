@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preliminary_Review_Start_Date__c</fullName>
+    <description>When application status = submitted and sub = Pending Utility review</description>
+    <externalId>false</externalId>
+    <label>Preliminary Review Start Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

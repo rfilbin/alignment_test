@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jurisdiction_applied_to_permit</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(TEXT(Jurisdiction__c)) &amp;&amp; ISPICKVAL(Type__c, &apos;Permit&apos;)</errorConditionFormula>
+    <errorDisplayField>Jurisdiction__c</errorDisplayField>
+    <errorMessage>Please select the applicable jurisdiction</errorMessage>
+</ValidationRule>

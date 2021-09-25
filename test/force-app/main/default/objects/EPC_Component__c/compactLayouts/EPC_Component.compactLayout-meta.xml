@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EPC_Component</fullName>
+    <fields>Name</fields>
+    <fields>EPC_Cost__c</fields>
+    <fields>System_Size_kW_DC__c</fields>
+    <fields>AEP_kWh_year__c</fields>
+    <fields>Specific_Yield_kWh_kWp__c</fields>
+    <label>EPC Component</label>
+</CompactLayout>

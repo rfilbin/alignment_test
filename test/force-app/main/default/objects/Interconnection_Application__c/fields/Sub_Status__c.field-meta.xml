@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Status</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending Deliverables</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Pending Deliverables</label>
+            </value>
+            <value>
+                <fullName>Pending Utility Review</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Pending Utility Review</label>
+            </value>
+            <value>
+                <fullName>Pending Engineering</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Pending Engineering</label>
+            </value>
+            <value>
+                <fullName>Pending Customer</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Pending Customer</label>
+            </value>
+            <value>
+                <fullName>Pending DSD</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Pending DSD</label>
+            </value>
+            <value>
+                <fullName>Pending Utility</fullName>
+                <default>false</default>
+                <label>Pending Utility</label>
+            </value>
+            <value>
+                <fullName>Received</fullName>
+                <default>false</default>
+                <label>Received</label>
+            </value>
+            <value>
+                <fullName>Upgrade Costs</fullName>
+                <default>false</default>
+                <label>Upgrade Costs</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Utility</fullName>
+                <default>false</default>
+                <label>Utility</label>
+            </value>
+            <value>
+                <fullName>DSD</fullName>
+                <default>false</default>
+                <label>DSD</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not Submitted</controllingFieldValue>
+            <valueName>Pending Deliverables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not Submitted</controllingFieldValue>
+            <controllingFieldValue>Study</controllingFieldValue>
+            <controllingFieldValue>ISA</controllingFieldValue>
+            <valueName>Pending Utility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Submitted</controllingFieldValue>
+            <valueName>Pending Utility Review</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deficiency</controllingFieldValue>
+            <valueName>Pending Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deficiency</controllingFieldValue>
+            <valueName>Pending Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Study</controllingFieldValue>
+            <controllingFieldValue>ISA</controllingFieldValue>
+            <valueName>Pending DSD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISA</controllingFieldValue>
+            <valueName>Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Upgrade Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Customer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>Utility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelled</controllingFieldValue>
+            <valueName>DSD</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

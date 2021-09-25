@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Opportunities</fullName>
+    <columns>NAME</columns>
+    <columns>Total_DC_Size__c</columns>
+    <columns>Estimated_COD__c</columns>
+    <columns>Stage__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PortfolioFinancialAnalysis__c.Portal</value>
+    </filters>
+    <label>Project Opportunities</label>
+</ListView>

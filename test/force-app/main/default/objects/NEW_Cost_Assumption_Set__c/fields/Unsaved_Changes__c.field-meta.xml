@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unsaved_Changes__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Process Automations</fullName>
+                <default>false</default>
+                <label>Process Automations</label>
+            </value>
+            <value>
+                <fullName>Finalize CRU</fullName>
+                <default>false</default>
+                <label>Finalize CRU</label>
+            </value>
+            <value>
+                <fullName>No Pending Updates</fullName>
+                <default>false</default>
+                <label>No Pending Updates</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

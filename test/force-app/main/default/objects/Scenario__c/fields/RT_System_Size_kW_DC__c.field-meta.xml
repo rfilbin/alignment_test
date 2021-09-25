@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RT_System_Size_kW_DC__c</fullName>
+    <externalId>false</externalId>
+    <label>RT System Size (kW DC)</label>
+    <summarizedField>EPC_Component__c.System_Size_kW_DC__c</summarizedField>
+    <summaryFilterItems>
+        <field>EPC_Component__c.Type__c</field>
+        <operation>equals</operation>
+        <value>RT</value>
+    </summaryFilterItems>
+    <summaryForeignKey>EPC_Component__c.Scenario__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

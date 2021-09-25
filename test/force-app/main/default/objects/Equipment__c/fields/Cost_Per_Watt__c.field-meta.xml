@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Per_Watt__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Only type this in if &quot;$ Per Unit&quot; is not relevant. Otherwise this will auto-calc based on &quot;$ Per Unit&quot;. This can mean $/W AC or $/W DC depending on Type.</inlineHelpText>
+    <label>$ Per Watt</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

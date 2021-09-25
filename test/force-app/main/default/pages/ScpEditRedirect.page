@@ -1,0 +1,22 @@
+<apex:page >
+    <script>
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        let saveUrl = "{!URLFOR('/apex/scpeditredirect')}" + 
+                        "?&lss=1" +
+                        "&rid={!$CurrentPage.parameters.rid}" +
+                        "&cfg={!$CurrentPage.parameters.cfg}";
+        console.log(saveUrl);
+        saveUrl = encodeURIComponent(saveUrl);
+ 
+        const urlVal = "{!URLFOR('/apex/lcrm-scp__scpedit')}" + 
+                       "?&lss=1" +
+                       "&rid={!$CurrentPage.parameters.rid}" +
+                       "&cfg={!$CurrentPage.parameters.cfg}" +
+                       "&saveURL2=" + saveUrl
+        
+        window.location.href = urlVal;  // for lightning
+        //window.top.location.href = urlVal; // for classic
+    }
+    </script>
+</apex:page>

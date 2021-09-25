@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadSource__c</fullName>
+    <externalId>false</externalId>
+    <label>zzArchive - Lead Source</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conference / Trade Show</fullName>
+                <default>false</default>
+                <label>Conference / Trade Show</label>
+            </value>
+            <value>
+                <fullName>Customer Referral</fullName>
+                <default>false</default>
+                <label>Customer Referral</label>
+            </value>
+            <value>
+                <fullName>Partner/Co_Dev</fullName>
+                <default>false</default>
+                <label>Partner/Co Dev</label>
+            </value>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>RFP</fullName>
+                <default>false</default>
+                <label>RFP</label>
+            </value>
+            <value>
+                <fullName>Direct Origination</fullName>
+                <default>false</default>
+                <label>Direct Origination</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Acquisition</fullName>
+                <default>false</default>
+                <label>Acquisition</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regions_Actively_Pursing_Projects__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>In which geographical regions is your company actively pursuing projects?</inlineHelpText>
+    <label>Regions Actively Pursing Projects</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Northwest</fullName>
+                <default>false</default>
+                <label>Northwest</label>
+            </value>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Southwest</fullName>
+                <default>false</default>
+                <label>Southwest</label>
+            </value>
+            <value>
+                <fullName>Mountain West</fullName>
+                <default>false</default>
+                <label>Mountain West</label>
+            </value>
+            <value>
+                <fullName>Midwest</fullName>
+                <default>false</default>
+                <label>Midwest</label>
+            </value>
+            <value>
+                <fullName>Mid-Atlantic</fullName>
+                <default>false</default>
+                <label>Mid-Atlantic</label>
+            </value>
+            <value>
+                <fullName>Northeast</fullName>
+                <default>false</default>
+                <label>Northeast</label>
+            </value>
+            <value>
+                <fullName>New England</fullName>
+                <default>false</default>
+                <label>New England</label>
+            </value>
+            <value>
+                <fullName>Southeast</fullName>
+                <default>false</default>
+                <label>Southeast</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Test</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

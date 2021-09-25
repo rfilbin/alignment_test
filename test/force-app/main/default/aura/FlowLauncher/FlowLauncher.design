@@ -1,0 +1,5 @@
+<design:component>
+    <design:attribute name="FlowName" label="Flow Name" description="Name of the flow you wish to launch."/>
+    <design:attribute name="LaunchFlowButtonText" label="Launch Flow Button Text" description="Text of the button to launch the flow."/>
+    <design:attribute name="FlowModalHeaderText" label="Header text for modal" description="Header of the modal that contains the flow."/>
+</design:component>

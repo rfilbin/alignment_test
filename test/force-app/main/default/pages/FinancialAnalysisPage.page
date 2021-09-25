@@ -1,0 +1,5 @@
+<apex:page standardController="PortfolioFinancialAnalysis__c" extensions="FinancialAnalysisController" action="{!runAnalysis}">
+    Running analysis for: {!PortfolioFinancialAnalysis__c.Name}, please wait...
+
+
+</apex:page>

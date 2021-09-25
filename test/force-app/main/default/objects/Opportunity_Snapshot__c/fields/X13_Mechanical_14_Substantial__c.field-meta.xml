@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X13_Mechanical_14_Substantial__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(isblank( X13_Mechanical_Completion_Achieved__c ),&quot;........................&quot;,
+&quot;(13) &quot; &amp;
+If(len(text(Month(X13_Mechanical_Completion_Achieved__c))) = 1,
+&quot;0&quot; &amp; text(Month( X13_Mechanical_Completion_Achieved__c)),
+text(Month( X13_Mechanical_Completion_Achieved__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X13_Mechanical_Completion_Achieved__c))) =1,
+&quot;0&quot; &amp; text(Day( X13_Mechanical_Completion_Achieved__c)),
+text(Day(X13_Mechanical_Completion_Achieved__c)))
+&amp; &quot;/&quot; &amp;
+text(Year(X13_Mechanical_Completion_Achieved__c)))
+
+&amp;&quot; &quot; &amp;
+
+If(isblank( X14_Substantial_Completion_Achieved__c ),&quot;......................... &quot;,
+&quot;(14) &quot; &amp;
+IF(len(text(Month( X14_Substantial_Completion_Achieved__c))) = 1,
+&quot;0&quot; &amp; text(Month( X14_Substantial_Completion_Achieved__c)),
+text(Month( X14_Substantial_Completion_Achieved__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X14_Substantial_Completion_Achieved__c))) =1,
+&quot;0&quot; &amp; text(Day( X14_Substantial_Completion_Achieved__c)),
+text(Day( X14_Substantial_Completion_Achieved__c)))
+&amp; &quot;/&quot; &amp;
+text(Year( X14_Substantial_Completion_Achieved__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zzArch(13) Mechanical.. (14) Substantial</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

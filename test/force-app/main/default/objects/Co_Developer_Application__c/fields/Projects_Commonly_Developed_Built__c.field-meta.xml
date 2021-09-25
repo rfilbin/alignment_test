@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Projects_Commonly_Developed_Built__c</fullName>
+    <description>for portal use</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Which types of projects do you most commonly develop and/or build? (Check all that apply)</inlineHelpText>
+    <label>Projects Commonly Developed/Built</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rooftop</fullName>
+                <default>false</default>
+                <label>Rooftop</label>
+            </value>
+            <value>
+                <fullName>Canopy/Carport</fullName>
+                <default>false</default>
+                <label>Canopy/Carport</label>
+            </value>
+            <value>
+                <fullName>Ground Mount</fullName>
+                <default>false</default>
+                <label>Ground Mount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
