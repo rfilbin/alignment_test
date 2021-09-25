@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_Approved_6_Site_Cntrl__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(isblank( X5_Award_Committee_Approval__c ),&quot;.......................&quot;,
+&quot;(5) &quot; &amp;
+If(len(text(Month(X5_Award_Committee_Approval__c))) = 1,
+&quot;0&quot; &amp; text(Month( X5_Award_Committee_Approval__c)),
+text(Month( X5_Award_Committee_Approval__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X5_Award_Committee_Approval__c))) =1,
+&quot;0&quot; &amp; text(Day( X5_Award_Committee_Approval__c)),
+text(Day(X5_Award_Committee_Approval__c)))
+&amp; &quot;/&quot; &amp;
+text(Year(X5_Award_Committee_Approval__c)))
+
+&amp;&quot; &quot; &amp;
+
+If(isblank( X6_Site_Control_Executed__c ),&quot; ......................&quot;,
+&quot;(6) &quot; &amp;
+IF(len(text(Month( X6_Site_Control_Executed__c))) = 1,
+&quot;0&quot; &amp; text(Month( X6_Site_Control_Executed__c)),
+text(Month( X6_Site_Control_Executed__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X6_Site_Control_Executed__c))) =1,
+&quot;0&quot; &amp; text(Day( X6_Site_Control_Executed__c)),
+text(Day( X6_Site_Control_Executed__c)))
+&amp; &quot;/&quot; &amp;
+text(Year( X6_Site_Control_Executed__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zzArc(5) Approved ........(6) Site Cntrl</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

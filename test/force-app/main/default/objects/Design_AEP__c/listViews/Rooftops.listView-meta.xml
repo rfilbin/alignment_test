@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rooftops</fullName>
+    <columns>NAME</columns>
+    <columns>System_Size_kW_DC__c</columns>
+    <columns>System_Size_kW_AC__c</columns>
+    <columns>DC_AC_Ratio__c</columns>
+    <columns>AEP_kWh_year__c</columns>
+    <columns>Specific_Yield_kWh_kWp__c</columns>
+    <columns>Foundation_Count__c</columns>
+    <columns>LV_Trenching_Distance_LF__c</columns>
+    <columns>of_Trees_Cleared__c</columns>
+    <columns>Drawing_Link__c</columns>
+    <columns>AEP_Link__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Design_AEP__c.Rooftop</value>
+    </filters>
+    <label>Rooftops</label>
+</ListView>

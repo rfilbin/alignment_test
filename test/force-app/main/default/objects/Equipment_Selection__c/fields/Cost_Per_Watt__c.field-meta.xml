@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cost_Per_Watt__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>$ per Watt DC or AC depending on type (i.e. an inverter would be $ Per Watt AC)</inlineHelpText>
+    <label>$ Per Watt</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

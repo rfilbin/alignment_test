@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incentive_Structure__c</fullName>
+    <externalId>false</externalId>
+    <label>Incentive Structure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>REC</fullName>
+                <default>false</default>
+                <label>REC</label>
+            </value>
+            <value>
+                <fullName>Dollar</fullName>
+                <default>false</default>
+                <label>Dollar</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Capacity</fullName>
+                <default>false</default>
+                <label>Capacity</label>
+            </value>
+            <value>
+                <fullName>Capacity (per Wdc)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Capacity (per Wdc)</label>
+            </value>
+            <value>
+                <fullName>Energy (per KWh)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Energy (per KWh)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

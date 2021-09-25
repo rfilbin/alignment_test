@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <description>used for path to display on portal</description>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Application Created</fullName>
+                <default>false</default>
+                <label>Application Created</label>
+            </value>
+            <value>
+                <fullName>Submitted for Approval</fullName>
+                <default>false</default>
+                <label>Submitted for Approval</label>
+            </value>
+            <value>
+                <fullName>Application Approved</fullName>
+                <default>false</default>
+                <label>Application Approved</label>
+            </value>
+            <value>
+                <fullName>Application Rejected</fullName>
+                <default>false</default>
+                <label>Application Rejected</label>
+            </value>
+            <value>
+                <fullName>Sign NDA</fullName>
+                <default>false</default>
+                <label>Sign NDA</label>
+            </value>
+            <value>
+                <fullName>Submit Application</fullName>
+                <default>false</default>
+                <label>Submit Application</label>
+            </value>
+            <value>
+                <fullName>Sign Agreement</fullName>
+                <default>false</default>
+                <label>Sign Agreement</label>
+            </value>
+            <value>
+                <fullName>Ready to Go!</fullName>
+                <default>false</default>
+                <label>Ready to Go!</label>
+            </value>
+            <value>
+                <fullName>Application Review</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Application Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

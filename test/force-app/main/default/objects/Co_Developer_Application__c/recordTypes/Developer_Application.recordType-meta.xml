@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Developer_Application</fullName>
+    <active>true</active>
+    <description>master once application has been started</description>
+    <label>Developer Application</label>
+    <picklistValues>
+        <picklist>Company_Services__c</picklist>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering%2FProcurement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>O%26M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Design %26 Layout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Origination</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Credit_Profiles_of_Customers__c</picklist>
+        <values>
+            <fullName>Customers with a public credit rating from Moody%E2%80%99s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customers with audited financial statements made available to you</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customers with parent company guarantees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customers with unknown credit and less certain business profiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customers with unknown credit but strong business profiles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>S%26A and%2For Fitch</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Experience_w_Battery_Energy_Storage_Sys__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_are_Deals_Financially_Structured__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project financed by your company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased by the customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sold to and project financed by a third-party investor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Length_of_Sales_Cycle__c</picklist>
+        <values>
+            <fullName>0-6 months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12-18 months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18%2B months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-12 months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_Sizes_Pursued_by_Company__c</picklist>
+        <values>
+            <fullName>0-250 kWdc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1-5 MWdc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>250-500 kWdc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2B MWdc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500-1%2C000 kWdc</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Projects_Commonly_Developed_Built__c</picklist>
+        <values>
+            <fullName>Canopy%2FCarport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Mount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rooftop</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Regions_Actively_Pursing_Projects__c</picklist>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Atlantic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain West</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New England</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Northwest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southwest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Application Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Created</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Application Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Types_of_Customers_Commonly_Worked_With__c</picklist>
+        <values>
+            <fullName>Colleges %26 Universities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial %26 Industrial Customers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipalities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School Districts</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

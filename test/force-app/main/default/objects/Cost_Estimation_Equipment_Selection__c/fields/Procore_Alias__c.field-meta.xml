@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procore_Alias__c</fullName>
+    <externalId>false</externalId>
+    <label>Procore Alias</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-101-Modules</fullName>
+                <default>false</default>
+                <label>1-101-Modules</label>
+            </value>
+            <value>
+                <fullName>1-102-Inverters</fullName>
+                <default>false</default>
+                <label>1-102-Inverters</label>
+            </value>
+            <value>
+                <fullName>1-103-Racking &amp; Foundations</fullName>
+                <default>false</default>
+                <label>1-103-Racking &amp; Foundations</label>
+            </value>
+            <value>
+                <fullName>1-104-AC BOS</fullName>
+                <default>false</default>
+                <label>1-104-AC BOS</label>
+            </value>
+            <value>
+                <fullName>1-104-DC BOS</fullName>
+                <default>false</default>
+                <label>1-104-DC BOS</label>
+            </value>
+            <value>
+                <fullName>1-104-MV Equipment</fullName>
+                <default>false</default>
+                <label>1-104-MV Equipment</label>
+            </value>
+            <value>
+                <fullName>1-104-Monitoring &amp; Controls</fullName>
+                <default>false</default>
+                <label>1-104-Monitoring &amp; Controls</label>
+            </value>
+            <value>
+                <fullName>1-104-Auxiliary / Other Material</fullName>
+                <default>false</default>
+                <label>1-104-Auxiliary / Other Material</label>
+            </value>
+            <value>
+                <fullName>1-104-Shipping &amp; Storage</fullName>
+                <default>false</default>
+                <label>1-104-Shipping &amp; Storage</label>
+            </value>
+            <value>
+                <fullName>1-104-Material Contingency</fullName>
+                <default>false</default>
+                <label>1-104-Material Contingency</label>
+            </value>
+            <value>
+                <fullName>1-105-ES Material</fullName>
+                <default>false</default>
+                <label>1-105-ES Material</label>
+            </value>
+            <value>
+                <fullName>1-105-Control System ES Installation</fullName>
+                <default>false</default>
+                <label>1-105-Control System ES Installation</label>
+            </value>
+            <value>
+                <fullName>1-105-Other ES Material</fullName>
+                <default>false</default>
+                <label>1-105-Other ES Material</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

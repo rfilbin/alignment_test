@@ -1,0 +1,36 @@
+<!--
+  @description       : 
+  @author            : robert@venturetechgroup.com
+  @group             : VentureTech Group
+  @last modified on  : 2021-09-01
+  @last modified by  : robert@venturetechgroup.com
+  Modifications Log 
+  Ver   Date         Author                        Modification
+  1.0   2021-06-16   robert@venturetechgroup.com   Initial Version
+-->
+<template>
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col slds-size_12-of-12 slds-align_absolute-center" >
+            <template if:true={showButton}>
+                <lightning-button
+                    variant={buttonVariant}
+                    data-template-id={templateId}
+                    data-template-description={templateDescription}
+                    class="slds-m-left_xx-large"
+                    label={buttonLabel}
+                    title={buttonTitle}
+                    onclick={handleClick} 
+                    style={buttonStyle}>
+                </lightning-button>
+            </template>
+            <template if:true={showSignedMessage} >
+                <span style={signedMessageStyle}>{signedMessage}</span>
+            </template>
+            <!-- <template if:true={showLoadingAnimation} class="slds-is-relative">
+                <lightning-spinner
+                    alternative-text="Processing Event..." variant="brand">
+                </lightning-spinner>
+            </template> -->
+        </div>
+    </div>
+</template>

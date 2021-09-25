@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <description>using this field for the prototype project workflow</description>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Indicative Pricing</fullName>
+                <default>false</default>
+                <label>Indicative Pricing</label>
+            </value>
+            <value>
+                <fullName>Qualification</fullName>
+                <default>false</default>
+                <label>Qualification</label>
+            </value>
+            <value>
+                <fullName>Preparing Firm Bid</fullName>
+                <default>false</default>
+                <label>Preparing Firm Bid</label>
+            </value>
+            <value>
+                <fullName>Pursuing Award</fullName>
+                <default>false</default>
+                <label>Pursuing Award</label>
+            </value>
+            <value>
+                <fullName>Contracting</fullName>
+                <default>false</default>
+                <label>Contracting</label>
+            </value>
+            <value>
+                <fullName>Pursuing NTP</fullName>
+                <default>false</default>
+                <label>Pursuing NTP</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Commissioning</fullName>
+                <default>false</default>
+                <label>Commissioning</label>
+            </value>
+            <value>
+                <fullName>Asset Operations</fullName>
+                <default>false</default>
+                <label>Asset Operations</label>
+            </value>
+            <value>
+                <fullName>Additional Information Required</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Additional Information Required</label>
+            </value>
+            <value>
+                <fullName>Analysis Run</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Analysis Run</label>
+            </value>
+            <value>
+                <fullName>Cost Details</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cost Details</label>
+            </value>
+            <value>
+                <fullName>DSD Approved</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DSD Approved</label>
+            </value>
+            <value>
+                <fullName>DSD Rejected</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DSD Rejected</label>
+            </value>
+            <value>
+                <fullName>DSD Review</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DSD Review</label>
+            </value>
+            <value>
+                <fullName>Design Details</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design Details</label>
+            </value>
+            <value>
+                <fullName>Incentive Details</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Incentive Details</label>
+            </value>
+            <value>
+                <fullName>New Project</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>New Project</label>
+            </value>
+            <value>
+                <fullName>PPA Details</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PPA Details</label>
+            </value>
+            <value>
+                <fullName>Project Overview</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Project Overview</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

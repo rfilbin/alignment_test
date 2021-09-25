@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PPA_Term__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please use your best estimate based on customer conversations/expectations, typically 15, 20 or 25 years.</inlineHelpText>
+    <label>PPA Term</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

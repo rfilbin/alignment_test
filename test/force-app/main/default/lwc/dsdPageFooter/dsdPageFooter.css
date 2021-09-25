@@ -1,0 +1,46 @@
+.dsdc-footer {
+   flex-shrink: 0;
+   background-color: #35465d!important;
+   background-image: url(https://dsdrenewables.com/wp-content/uploads/2019/10/footer_gfc.png);
+   background-position: top left;
+   background-size: initial;
+   color: #8898a7!important;
+   padding-top: 0;
+}
+
+.footerInner {
+   max-width: 1440px;
+   margin: 0 auto;
+   padding: 30px;
+}
+
+.dsdc-footer a {
+   color: white!important;
+}
+
+.dsdc-footer h2 a {
+   font-family: fairplex-wide,serif;
+   font-size: 24px;
+   font-weight: 700;
+}
+
+.dsdc-footer .dsdc-social_icons i {
+   height: 32px;
+   width: 32px;
+   font-size: 24px;
+   line-height: 32px;
+   color: #8898a7;
+   transition: color 0.3s;
+   -moz-transition: color 0.3s;
+   -webkit-transition: color 0.3s;
+   margin-left: 10px;
+}
+
+.dsdc-footer .dsdc-social_icons i:hover {
+   color: white;
+}
+
+.dsdc-align_right {
+   justify-content: flex-end;
+   text-align: right;
+}

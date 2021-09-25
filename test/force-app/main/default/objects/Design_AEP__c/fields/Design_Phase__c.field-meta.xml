@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Design_Phase__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The phase of the project for which this design was intended</inlineHelpText>
+    <label>Design Phase</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preliminary</fullName>
+                <default>false</default>
+                <label>Preliminary</label>
+            </value>
+            <value>
+                <fullName>Firm</fullName>
+                <default>false</default>
+                <label>Firm Bid</label>
+            </value>
+            <value>
+                <fullName>Interconnection</fullName>
+                <default>false</default>
+                <label>Interconnection</label>
+            </value>
+            <value>
+                <fullName>Contract</fullName>
+                <default>false</default>
+                <label>Contract/MIPA</label>
+            </value>
+            <value>
+                <fullName>Permit</fullName>
+                <default>false</default>
+                <label>Permit</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>As Built</fullName>
+                <default>false</default>
+                <label>As Built</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Model_filled_in_if_Module_or_Inverter</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISBLANK(Model__c) ||
+ ISBLANK(Manufacturer__c)||
+ ISBLANK(Watts_Per_Unit__c))&amp;&amp;
+(ISPICKVAL(Type__c, &apos;Inverter&apos;) || ISPICKVAL(Type__c, &apos;Module&apos;))</errorConditionFormula>
+    <errorMessage>Please fill in the Model #, Manufacturer and/or $ Per Unit</errorMessage>
+</ValidationRule>

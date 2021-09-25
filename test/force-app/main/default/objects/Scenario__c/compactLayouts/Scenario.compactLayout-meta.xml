@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scenario</fullName>
+    <fields>Name</fields>
+    <fields>Total_System_Size_kW_DC__c</fields>
+    <fields>Total_System_Size_kW_AC__c</fields>
+    <fields>Total_AEP_kWh_year__c</fields>
+    <fields>System_Specific_Yield_kWh_kWp__c</fields>
+    <fields>Total_EPC_Cost__c</fields>
+    <fields>Total_EPC_W__c</fields>
+    <label>Scenario</label>
+</CompactLayout>

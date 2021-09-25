@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X4_Project_Awarded_written_evidence__c</fullName>
+    <externalId>false</externalId>
+    <label>zz(4) Project Awarded (written evidence)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

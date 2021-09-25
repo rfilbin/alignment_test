@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_Firm_Proposal_4_Project_Awarded__c</fullName>
+    <externalId>false</externalId>
+    <formula>If(isblank( X3_Firm_Proposal_Submitted__c ),&quot;........................&quot;,
+&quot;(3) &quot; &amp;
+If(len(text(Month(X3_Firm_Proposal_Submitted__c))) = 1,
+&quot;0&quot; &amp; text(Month( X3_Firm_Proposal_Submitted__c)),
+text(Month( X3_Firm_Proposal_Submitted__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X3_Firm_Proposal_Submitted__c))) =1,
+&quot;0&quot; &amp; text(Day( X3_Firm_Proposal_Submitted__c)),
+text(Day(X3_Firm_Proposal_Submitted__c)))
+&amp; &quot;/&quot; &amp;
+text(Year(X3_Firm_Proposal_Submitted__c)))
+
+&amp;&quot; &quot; &amp;
+
+If(isblank( X4_Project_Awarded_written_evidence__c ),&quot;.............................. &quot;,
+&quot;(4) &quot; &amp;
+IF(len(text(Month( X4_Project_Awarded_written_evidence__c))) = 1,
+&quot;0&quot; &amp; text(Month( X4_Project_Awarded_written_evidence__c)),
+text(Month( X4_Project_Awarded_written_evidence__c)))
+&amp; &quot;/&quot; &amp;
+If (len(text(Day( X4_Project_Awarded_written_evidence__c))) =1,
+&quot;0&quot; &amp; text(Day( X4_Project_Awarded_written_evidence__c)),
+text(Day( X4_Project_Awarded_written_evidence__c)))
+&amp; &quot;/&quot; &amp;
+text(Year( X4_Project_Awarded_written_evidence__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>zzArc(3)Firm Proposal (4)Project Awarded</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

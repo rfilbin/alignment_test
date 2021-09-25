@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Configuration__c</fullName>
+    <externalId>false</externalId>
+    <formula>If( 
+AND (Roof_DC_kW__c &gt;0, Ground_DC_kW__c &gt;0,  Carport_DC_kW__c &gt;0),&quot;RT GM CP&quot;,
+IF(
+  AND (Roof_DC_kW__c &gt;0, Ground_DC_kW__c &gt; 0),&quot;RT GM&quot;,
+IF(
+  AND (Roof_DC_kW__c &gt;0,  Carport_DC_kW__c &gt;0),&quot;RT CP&quot;,
+IF(
+  Roof_DC_kW__c &gt;0,&quot;RT&quot;,
+IF(
+  AND (Ground_DC_kW__c &gt;0,  Carport_DC_kW__c &gt;0),&quot;GM CP&quot;,
+If(
+  Ground_DC_kW__c &gt;0,&quot;GM&quot;,
+IF(
+  Carport_DC_kW__c &gt;0,&quot;CP&quot;
+,&quot; &quot;
+)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Configuration</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edit_Related</fullName>
+    <availability>online</availability>
+    <description>Use Super Clone Pro to view/edit EPC components</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Edit Related</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/lcrm-scp__scpedit?rid={!Scenario__c.Id}&amp;cfg=ScenarioEdit&amp;lss=1</url>
+</WebLink>

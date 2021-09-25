@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reminder_to_fill_in_AEP</fullName>
+    <active>true</active>
+    <description>If AEP is &quot;null&quot; then record will not save</description>
+    <errorConditionFormula>ISBLANK(AEP_kWh_year__c )&amp;&amp;
+NOT(ISCHANGED(System_Size_kW_DC__c)) &amp;&amp;
+NOT(ISCHANGED(System_Size_kW_AC__c)) &amp;&amp;
+NOT(ISNEW())</errorConditionFormula>
+    <errorMessage>Please fill in the AEP (and AEP Link) that matches the equipment above. If you do not have an AEP that matches the current configuration, or are in the process of making changes, please type in a zero for AEP.</errorMessage>
+</ValidationRule>

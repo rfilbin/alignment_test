@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Procore_Alias__c</fullName>
+    <externalId>false</externalId>
+    <label>Procore Alias</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2-201-Foundations</fullName>
+                <default>false</default>
+                <label>2-201-Foundations</label>
+            </value>
+            <value>
+                <fullName>2-201-Rack Installation / Steel Erection</fullName>
+                <default>false</default>
+                <label>2-201-Rack Installation / Steel Erection</label>
+            </value>
+            <value>
+                <fullName>2-201-Water Management / Decking / Snowguards</fullName>
+                <default>false</default>
+                <label>2-201-Water Management / Decking / Snowguards</label>
+            </value>
+            <value>
+                <fullName>2-201-Module Installation</fullName>
+                <default>false</default>
+                <label>2-201-Module Installation</label>
+            </value>
+            <value>
+                <fullName>2-202-DC Electrical Installation</fullName>
+                <default>false</default>
+                <label>2-202-DC Electrical Installation</label>
+            </value>
+            <value>
+                <fullName>2-202-AC Electrical Installation</fullName>
+                <default>false</default>
+                <label>2-202-AC Electrical Installation</label>
+            </value>
+            <value>
+                <fullName>2-202-Medium Voltage Installation</fullName>
+                <default>false</default>
+                <label>2-202-Medium Voltage Installation</label>
+            </value>
+            <value>
+                <fullName>2-202-Other Electrical Installation</fullName>
+                <default>false</default>
+                <label>2-202-Other Electrical Installation</label>
+            </value>
+            <value>
+                <fullName>2-203-Tree Removal</fullName>
+                <default>false</default>
+                <label>2-203-Tree Removal</label>
+            </value>
+            <value>
+                <fullName>2-203-Tree Stump Removal</fullName>
+                <default>false</default>
+                <label>2-203-Tree Stump Removal</label>
+            </value>
+            <value>
+                <fullName>2-203-Trenching</fullName>
+                <default>false</default>
+                <label>2-203-Trenching</label>
+            </value>
+            <value>
+                <fullName>2-203-Road Installation</fullName>
+                <default>false</default>
+                <label>2-203-Road Installation</label>
+            </value>
+            <value>
+                <fullName>2-203-Fencing</fullName>
+                <default>false</default>
+                <label>2-203-Fencing</label>
+            </value>
+            <value>
+                <fullName>2-203-Paving</fullName>
+                <default>false</default>
+                <label>2-203-Paving</label>
+            </value>
+            <value>
+                <fullName>2-203-Landscaping</fullName>
+                <default>false</default>
+                <label>2-203-Landscaping</label>
+            </value>
+            <value>
+                <fullName>2-203-Erosion Control</fullName>
+                <default>false</default>
+                <label>2-203-Erosion Control</label>
+            </value>
+            <value>
+                <fullName>2-203-Other Civil Installation</fullName>
+                <default>false</default>
+                <label>2-203-Other Civil Installation</label>
+            </value>
+            <value>
+                <fullName>2-204-Electrical ES Installation</fullName>
+                <default>false</default>
+                <label>2-204-Electrical ES Installation</label>
+            </value>
+            <value>
+                <fullName>2-204-Civil ES Installation</fullName>
+                <default>false</default>
+                <label>2-204-Civil ES Installation</label>
+            </value>
+            <value>
+                <fullName>2-204-Control System ES Installation</fullName>
+                <default>false</default>
+                <label>2-204-Control System ES Installation</label>
+            </value>
+            <value>
+                <fullName>2-204-Other ES Installation</fullName>
+                <default>false</default>
+                <label>2-204-Other ES Installation</label>
+            </value>
+            <value>
+                <fullName>2-205-Roofing</fullName>
+                <default>false</default>
+                <label>2-205-Roofing</label>
+            </value>
+            <value>
+                <fullName>2-205-Commissioning</fullName>
+                <default>false</default>
+                <label>2-205-Commissioning</label>
+            </value>
+            <value>
+                <fullName>2-205-Site Management</fullName>
+                <default>false</default>
+                <label>2-205-Site Management</label>
+            </value>
+            <value>
+                <fullName>2-205-EHS</fullName>
+                <default>false</default>
+                <label>2-205-EHS</label>
+            </value>
+            <value>
+                <fullName>2-205-Other - General Installation</fullName>
+                <default>false</default>
+                <label>2-205-Other - General Installation</label>
+            </value>
+            <value>
+                <fullName>2-205-Labor Contingency</fullName>
+                <default>false</default>
+                <label>2-205-Labor Contingency</label>
+            </value>
+            <value>
+                <fullName>3-301-Title Search and Report</fullName>
+                <default>false</default>
+                <label>3-301-Title Search and Report</label>
+            </value>
+            <value>
+                <fullName>3-301-Title Insurance</fullName>
+                <default>false</default>
+                <label>3-301-Title Insurance</label>
+            </value>
+            <value>
+                <fullName>3-301-Easement Fees</fullName>
+                <default>false</default>
+                <label>3-301-Easement Fees</label>
+            </value>
+            <value>
+                <fullName>3-301-Legal Real Estate Fees</fullName>
+                <default>false</default>
+                <label>3-301-Legal Real Estate Fees</label>
+            </value>
+            <value>
+                <fullName>3-301-PILOT Fees</fullName>
+                <default>false</default>
+                <label>3-301-PILOT Fees</label>
+            </value>
+            <value>
+                <fullName>3-301-Other Real Estate</fullName>
+                <default>false</default>
+                <label>3-301-Other Real Estate</label>
+            </value>
+            <value>
+                <fullName>3-302-Environmental</fullName>
+                <default>false</default>
+                <label>3-302-Environmental</label>
+            </value>
+            <value>
+                <fullName>3-302-Wetland Deliniation</fullName>
+                <default>false</default>
+                <label>3-302-Wetland Deliniation</label>
+            </value>
+            <value>
+                <fullName>3-302-Conservation Commission/OSHPD</fullName>
+                <default>false</default>
+                <label>3-302-Conservation Commission/OSHPD</label>
+            </value>
+            <value>
+                <fullName>3-302-NHESP</fullName>
+                <default>false</default>
+                <label>3-302-NHESP</label>
+            </value>
+            <value>
+                <fullName>3-302-SWPPP</fullName>
+                <default>false</default>
+                <label>3-302-SWPPP</label>
+            </value>
+            <value>
+                <fullName>3-302-Post Closure Use Permit</fullName>
+                <default>false</default>
+                <label>3-302-Post Closure Use Permit</label>
+            </value>
+            <value>
+                <fullName>3-302-Other Environmental</fullName>
+                <default>false</default>
+                <label>3-302-Other Environmental</label>
+            </value>
+            <value>
+                <fullName>3-303-Town Board / Planning Board Fees</fullName>
+                <default>false</default>
+                <label>3-303-Town Board / Planning Board Fees</label>
+            </value>
+            <value>
+                <fullName>3-303-Other Non-Ministerial Permit Fees</fullName>
+                <default>false</default>
+                <label>3-303-Other Non-Ministerial Permit Fees</label>
+            </value>
+            <value>
+                <fullName>3-303-Building Permit</fullName>
+                <default>false</default>
+                <label>3-303-Building Permit</label>
+            </value>
+            <value>
+                <fullName>3-303-Electrical Permit</fullName>
+                <default>false</default>
+                <label>3-303-Electrical Permit</label>
+            </value>
+            <value>
+                <fullName>3-303-Incentive Fees</fullName>
+                <default>false</default>
+                <label>3-303-Incentive Fees</label>
+            </value>
+            <value>
+                <fullName>3-303-Financier Fees</fullName>
+                <default>false</default>
+                <label>3-303-Financier Fees</label>
+            </value>
+            <value>
+                <fullName>3-303-Legal Permitting Fees</fullName>
+                <default>false</default>
+                <label>3-303-Legal Permitting Fees</label>
+            </value>
+            <value>
+                <fullName>3-303-Other Permits &amp; Fees</fullName>
+                <default>false</default>
+                <label>3-303-Other Permits &amp; Fees</label>
+            </value>
+            <value>
+                <fullName>3-304-Site/Roof Survey</fullName>
+                <default>false</default>
+                <label>3-304-Site/Roof Survey</label>
+            </value>
+            <value>
+                <fullName>3-304-Construction Survey</fullName>
+                <default>false</default>
+                <label>3-304-Construction Survey</label>
+            </value>
+            <value>
+                <fullName>3-304-ALTA Survey</fullName>
+                <default>false</default>
+                <label>3-304-ALTA Survey</label>
+            </value>
+            <value>
+                <fullName>3-304-Underground Detection</fullName>
+                <default>false</default>
+                <label>3-304-Underground Detection</label>
+            </value>
+            <value>
+                <fullName>3-305-Site Plan (Civil Design)</fullName>
+                <default>false</default>
+                <label>3-305-Site Plan (Civil Design)</label>
+            </value>
+            <value>
+                <fullName>3-305-Canopy Structural Analysis</fullName>
+                <default>false</default>
+                <label>3-305-Canopy Structural Analysis</label>
+            </value>
+            <value>
+                <fullName>3-305-Rooftop Structural Analysis</fullName>
+                <default>false</default>
+                <label>3-305-Rooftop Structural Analysis</label>
+            </value>
+            <value>
+                <fullName>3-305-Geotech</fullName>
+                <default>false</default>
+                <label>3-305-Geotech</label>
+            </value>
+            <value>
+                <fullName>3-305-Pull Test</fullName>
+                <default>false</default>
+                <label>3-305-Pull Test</label>
+            </value>
+            <value>
+                <fullName>3-305-Electrical Design</fullName>
+                <default>false</default>
+                <label>3-305-Electrical Design</label>
+            </value>
+            <value>
+                <fullName>3-305-Mechanical Design</fullName>
+                <default>false</default>
+                <label>3-305-Mechanical Design</label>
+            </value>
+            <value>
+                <fullName>3-305-Engineering Stamp</fullName>
+                <default>false</default>
+                <label>3-305-Engineering Stamp</label>
+            </value>
+            <value>
+                <fullName>3-305-ES Design</fullName>
+                <default>false</default>
+                <label>3-305-ES Design</label>
+            </value>
+            <value>
+                <fullName>3-305-ES CS Design</fullName>
+                <default>false</default>
+                <label>3-305-ES CS Design</label>
+            </value>
+            <value>
+                <fullName>3-305-Other Engineering</fullName>
+                <default>false</default>
+                <label>3-305-Other Engineering</label>
+            </value>
+            <value>
+                <fullName>3-306-Electrical</fullName>
+                <default>false</default>
+                <label>3-306-Electrical</label>
+            </value>
+            <value>
+                <fullName>3-306-Mechanical</fullName>
+                <default>false</default>
+                <label>3-306-Mechanical</label>
+            </value>
+            <value>
+                <fullName>3-306-Civil</fullName>
+                <default>false</default>
+                <label>3-306-Civil</label>
+            </value>
+            <value>
+                <fullName>3-306-Other Inspection</fullName>
+                <default>false</default>
+                <label>3-306-Other Inspection</label>
+            </value>
+            <value>
+                <fullName>3-307-System Impact / Feasibility Study</fullName>
+                <default>false</default>
+                <label>3-307-System Impact / Feasibility Study</label>
+            </value>
+            <value>
+                <fullName>3-307-Interconnect Application</fullName>
+                <default>false</default>
+                <label>3-307-Interconnect Application</label>
+            </value>
+            <value>
+                <fullName>3-307-Interconnect Upgrades</fullName>
+                <default>false</default>
+                <label>3-307-Interconnect Upgrades</label>
+            </value>
+            <value>
+                <fullName>3-307-Witness Test</fullName>
+                <default>false</default>
+                <label>3-307-Witness Test</label>
+            </value>
+            <value>
+                <fullName>3-307-Relay Test</fullName>
+                <default>false</default>
+                <label>3-307-Relay Test</label>
+            </value>
+            <value>
+                <fullName>3-307-Other Utility</fullName>
+                <default>false</default>
+                <label>3-307-Other Utility</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

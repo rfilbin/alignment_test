@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Identified_Upgrades__c</fullName>
+    <description>When Dev Diligence Requested is not null</description>
+    <externalId>false</externalId>
+    <label>Identified Upgrades</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Transformer</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Transformer</label>
+            </value>
+            <value>
+                <fullName>Feeder Extensions</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Feeder Extensions</label>
+            </value>
+            <value>
+                <fullName>Reconductor</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Reconductor</label>
+            </value>
+            <value>
+                <fullName>Express Feeder</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Express Feeder</label>
+            </value>
+            <value>
+                <fullName>DTT</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>DTT</label>
+            </value>
+            <value>
+                <fullName>3V0</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>3V0</label>
+            </value>
+            <value>
+                <fullName>SCADA</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>SCADA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

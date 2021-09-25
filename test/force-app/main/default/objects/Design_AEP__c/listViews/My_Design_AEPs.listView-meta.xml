@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Design_AEPs</fullName>
+    <columns>NAME</columns>
+    <columns>Design_Phase__c</columns>
+    <columns>System_Size_kW_DC__c</columns>
+    <columns>System_Size_kW_AC__c</columns>
+    <columns>DC_AC_Ratio__c</columns>
+    <columns>AEP_kWh_year__c</columns>
+    <columns>Specific_Yield_kWh_kWp__c</columns>
+    <columns>AEP_Link__c</columns>
+    <columns>Drawing_Link__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Design &amp; AEPs</label>
+</ListView>

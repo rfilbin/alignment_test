@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Function__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What functions are expected to know what this means? Select &quot;General&quot; if it&apos;s widely used across the business.</inlineHelpText>
+    <label>Function(s)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asset Acquisitions</fullName>
+                <default>false</default>
+                <label>Asset Acquisitions</label>
+            </value>
+            <value>
+                <fullName>Canopy Team</fullName>
+                <default>false</default>
+                <label>Canopy Team</label>
+            </value>
+            <value>
+                <fullName>Commercial Analyst</fullName>
+                <default>false</default>
+                <label>Commercial Analyst</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Cost Estimator</fullName>
+                <default>false</default>
+                <label>Cost Estimator</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>Development Engineering</fullName>
+                <default>false</default>
+                <label>Development Engineering</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Incentives Team</fullName>
+                <default>false</default>
+                <label>Incentives Team</label>
+            </value>
+            <value>
+                <fullName>IX Team</fullName>
+                <default>false</default>
+                <label>IX Team</label>
+            </value>
+            <value>
+                <fullName>Leadership</fullName>
+                <default>false</default>
+                <label>Leadership</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Origination</fullName>
+                <default>false</default>
+                <label>Origination</label>
+            </value>
+            <value>
+                <fullName>Project Engineering</fullName>
+                <default>false</default>
+                <label>Project Engineering</label>
+            </value>
+            <value>
+                <fullName>Storage</fullName>
+                <default>false</default>
+                <label>Storage</label>
+            </value>
+            <value>
+                <fullName>Structured Finance</fullName>
+                <default>false</default>
+                <label>Structured Finance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

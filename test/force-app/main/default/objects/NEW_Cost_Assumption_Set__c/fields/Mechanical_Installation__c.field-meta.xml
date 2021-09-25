@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mechanical_Installation__c</fullName>
+    <externalId>false</externalId>
+    <label>Mechanical Installation ($)</label>
+    <summarizedField>Labor_Selection__c.Cost__c</summarizedField>
+    <summaryFilterItems>
+        <field>Labor_Selection__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Mechanical Installation</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Labor_Selection__c.NEW_Cost_Assumption_Set__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

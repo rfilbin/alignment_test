@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Module</fullName>
+                <default>false</default>
+                <label>Module</label>
+            </value>
+            <value>
+                <fullName>Inverter</fullName>
+                <default>false</default>
+                <label>Inverter</label>
+            </value>
+            <value>
+                <fullName>MLPE</fullName>
+                <default>false</default>
+                <label>MLPE</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Racking</fullName>
+                <default>false</default>
+                <label>Racking</label>
+            </value>
+            <value>
+                <fullName>DC Bos</fullName>
+                <default>false</default>
+                <label>DC Bos</label>
+            </value>
+            <value>
+                <fullName>AC Bos</fullName>
+                <default>false</default>
+                <label>AC Bos</label>
+            </value>
+            <value>
+                <fullName>MV Equipment</fullName>
+                <default>false</default>
+                <label>MV Equipment</label>
+            </value>
+            <value>
+                <fullName>Monitoring</fullName>
+                <default>false</default>
+                <label>Monitoring</label>
+            </value>
+            <value>
+                <fullName>Auxiliary Components</fullName>
+                <default>false</default>
+                <label>Auxiliary Components</label>
+            </value>
+            <value>
+                <fullName>Shipping &amp; Storage</fullName>
+                <default>false</default>
+                <label>Shipping &amp; Storage</label>
+            </value>
+            <value>
+                <fullName>Other Material</fullName>
+                <default>false</default>
+                <label>Other Material</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

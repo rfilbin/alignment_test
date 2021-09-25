@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Developer_Basic_Info_Queue_Co_Developer_Application</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Developer Basic Info Queue</label>
+    <queue>Developer_Basic_Info_Queue</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

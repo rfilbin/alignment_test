@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_upon_double_check</fullName>
+    <active>true</active>
+    <description>Status can only be approved if prevailing and taxes are checked.</description>
+    <errorConditionFormula>ISPICKVAL(Unsaved_Changes__c, &apos;Approved&apos;) &amp;&amp;
+(Check_Prevailing__c = FALSE || Check_Taxes__c = FALSE)</errorConditionFormula>
+    <errorMessage>Did you forget to double-check prevailing wage and taxes?</errorMessage>
+</ValidationRule>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Profiles_of_Customers__c</fullName>
+    <description>for portal use</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What are the most common credit profiles of your customers? (Check all that apply)</inlineHelpText>
+    <label>Credit Profiles of Customers</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customers with a public credit rating from Moody’s</fullName>
+                <default>false</default>
+                <label>Customers with a public credit rating from Moody’s</label>
+            </value>
+            <value>
+                <fullName>S&amp;A and/or Fitch</fullName>
+                <default>false</default>
+                <label>S&amp;A and/or Fitch</label>
+            </value>
+            <value>
+                <fullName>Customers with parent company guarantees</fullName>
+                <default>false</default>
+                <label>Customers with parent company guarantees</label>
+            </value>
+            <value>
+                <fullName>Customers with audited financial statements made available to you</fullName>
+                <default>false</default>
+                <label>Customers with audited financial statements made available to you</label>
+            </value>
+            <value>
+                <fullName>Customers with unknown credit but strong business profiles</fullName>
+                <default>false</default>
+                <label>Customers with unknown credit but strong business profiles</label>
+            </value>
+            <value>
+                <fullName>Customers with unknown credit and less certain business profiles</fullName>
+                <default>false</default>
+                <label>Customers with unknown credit and less certain business profiles</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
