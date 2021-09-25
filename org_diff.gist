@@ -1,0 +1,12 @@
+git pull main
+git checkout -b alignment/production_2021_09_24_changes # Branch Name Convention: alignment/[ORG_NAME]_[YYYY-MM-DD]_changes
+
+sfdx force:source:retrieve -x manifest/package.xml -w 5
+
+git add .
+git commit -m 'Current State of [ORG NAME] as of [DATETIME: YYYY-MM-DD HH:MM] - Automated Environment Configuration Alignment Service'
+git push
+
+
+
+

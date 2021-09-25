@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1g95rp9", 
+        "custom_id": "RAMBI-8284", 
+        "name": "Create Plan for taking over DSD Client Management by 11/1", 
+        "text_content": "Please come up with a plan for things you will need in order for us to transition the day to day management of DSD to you by November 1st. We also need to come up with a plan for gradually involving you in the project so we can seamlessly transition the client relationship to you.\n\nExpectation as of 11/1: \nFacilitating all regularly scheduled client meetings\nManaging ClickUp\nEnsuring projects are up to date\nEnsuring tasks are forecasted at least 3 weeks out\nEnsuring consultants are not blocked and tasks are not overdue\nManaging Client forecast (week by week) in Salesforce to communicate resourcing needs\nDocumenting client solutions\nBeing the primary point of contact for all stakeholders\nManaging scope\nArchitecting & Designing solutions\nManaging client budget in Harvest\n\nFor DSD this will include their Internal Financial Model project as well as Agile improvements\n", 
+        "description": "Please come up with a plan for things you will need in order for us to transition the day to day management of DSD to you by November 1st. We also need to come up with a plan for gradually involving you in the project so we can seamlessly transition the client relationship to you.\n\nExpectation as of 11/1: \nFacilitating all regularly scheduled client meetings\nManaging ClickUp\nEnsuring projects are up to date\nEnsuring tasks are forecasted at least 3 weeks out\nEnsuring consultants are not blocked and tasks are not overdue\nManaging Client forecast (week by week) in Salesforce to communicate resourcing needs\nDocumenting client solutions\nBeing the primary point of contact for all stakeholders\nManaging scope\nArchitecting & Designing solutions\nManaging client budget in Harvest\n\nFor DSD this will include their Internal Financial Model project as well as Agile improvements\n", 
+        "status": {
+            "status": "backlog - scoped", 
+            "color": "#f900ea", 
+            "type": "unstarted", 
+            "orderindex": 1
+        }, 
+        "orderindex": "40725.00000000000000000000000000000000", 
+        "date_created": "1631291574070", 
+        "date_updated": "1632487641933", 
+        "date_closed": null, 
+        "archived": false, 
+        "creator": {"id": 10520351, "username": "Erika Macaione", "color": "#455963", "email": "erika@venturetechgroup.com", "profilePicture": "https://attachments.clickup.com/profilePictures/10520351_uAs.jpg"}, 
+        "assignees": [
+            {"id": 30057152, "username": "Brian Cline", "color": "#388d3c", "initials": "BC", "email": "brian@venturetechgroup.com", "profilePicture": null}
+        ], 
+        "watchers": [], 
+        "checklists": [], 
+        "tags": [], 
+        "parent": null, 
+        "priority": {"id": "3", "priority": "normal", "color": "#6fddff", "orderindex": "3"}, 
+        "due_date": "1632470400000", "start_date": "1632211200000", "points": null, "time_estimate": 0, 
+        "custom_fields": [
+            {"id": "a19b44f5-ced2-4ce2-a2cd-2bcc673fd247", "name": "Acceptance Criteria", "type": "text", "type_config": {}, "date_created": "1626382325018", "hide_from_guests": false, "required": false}, 
+            {"id": "04b3482a-a77c-4cc5-b1d2-2709048b4988", "name": "Business Value", "type": "text", "type_config": {}, "date_created": "1616112717947", "hide_from_guests": false, "required": false}, 
+            {"id": "abe63c46-c9af-4ed6-98bb-6f7abc72204c", "name": "Definition of Done", "type": "text", "type_config": {}, "date_created": "1616102186582", "hide_from_guests": false, "required": false}, 
+            {"id": "45bdef06-644d-427e-b8ab-570f9c690dc5", "name": "Environment", "type": "short_text", "type_config": {}, "date_created": "1616516700790", "hide_from_guests": false, "required": false}, 
+            {"id": "a5b9687b-c46d-4092-86ef-7aa226ad5528", "name": "Associated Tasks", "type": "tasks", "type_config": {"fields": [{"field": "timeEstimate", "width": 100, "hidden": false}, {"field": "timeLogged", "width": 100, "hidden": false}, {"field": "dueDate", "width": 100, "hidden": false}, {"field": "assignee", "width": 100, "hidden": false}]}, "date_created": "1616101826711", "hide_from_guests": false, "required": false}, 
+            {"id": "62a7c835-02ce-4432-b463-7c31725edd73", "name": "Steps To Reproduce", "type": "text", "type_config": {}, "date_created": "1616003022801", "hide_from_guests": false, "required": false}
+        ], 
+        "dependencies": [], "linked_tasks": [], "team_id": "2291710", "url": "https://app.clickup.com/t/1g95rp9", "permission_level": "create", 
+        "list": {"id": "132249690", "name": "Brians Onboarding", "access": true}, 
+        "project": {"id": "33897124", "name": "Team Rambi Misc", "hidden": false, "access": true}, 
+        "folder": {"id": "33897124", "name": "Team Rambi Misc", "hidden": false, "access": true}, 
+        "space": {"id": "10692929"}
+    } 
+    ]
